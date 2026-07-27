@@ -1,6 +1,6 @@
 module github.com/kataras/iris/examples/logging/rollbar
 
-go 1.25
+go 1.26
 
 require (
 	github.com/kataras/iris/v12 v12.2.11-0.20251225090712-30c1c6b10edd

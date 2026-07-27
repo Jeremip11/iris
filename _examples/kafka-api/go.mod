@@ -1,6 +1,6 @@
 module myapp
 
-go 1.25
+go 1.26
 
 require (
 	github.com/IBM/sarama v1.46.3

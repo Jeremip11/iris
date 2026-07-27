@@ -1,6 +1,6 @@
 module github.com/kataras/iris/_examples/websocket/basic
 
-go 1.25
+go 1.26
 
 require (
 	github.com/iris-contrib/middleware/jwt v0.0.0-20251225090426-92c6f28facda

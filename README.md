@@ -1,18 +1,18 @@
-<!--<h1><img width="24" height="25" src ="https://www.iris-go.com/images/logo-new-lq-45.png"/> News</h1>
+<h1>News</h1>
 
- Iris version **12.2.0** has been [released](HISTORY.md#sa-11-march-2023--v1220)! As always, the latest version of Iris comes with the promise of lifetime active maintenance.
+> 🚀 **Iris v14 is on the way.** The next major version is the largest release in the project's history: the framework rebuilt on Go generics, an application builder the compiler checks, request helpers that validate for you, one central error map, thirty built-in middleware and a book that ships inside the repository. See [what is coming in Iris v14](#-what-is-coming-in-iris-v14) below.
+>
+> The version you are reading about here, **v12**, keeps working and keeps getting fixes. v14 arrives on a new import path, so nothing on your side breaks the day it lands.
 
-Try the official [Iris Command Line Interface](https://github.com/kataras/iris-cli) today! -->
-
-# <a href="https://iris-go.com"><img src="https://iris-go.com/iris-terminal-55.png" width="50px" height="50px" style="margin-bottom: -5px" ></a> Iris Web Framework <a href="README_GR.md"><img width="20px" src="https://iris-go.com/static/images/flag-greece.svg" /> <a href="README_JA.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-japan.svg" /></a> </a> <a href="README_FR.md"><img width="20px" src="https://iris-go.com/static/images/flag-france.svg" /></a> <a href="README_ZH_HANT.md"><img width="20px" src="https://iris-go.com/static/images/flag-taiwan.svg" /></a> <a href="README_ZH_HANS.md"><img width="20px" src="https://iris-go.com/static/images/flag-china.svg" /></a> <a href="README_ES.md"><img width="20px" src="https://iris-go.com/static/images/flag-spain.png" /></a> <a href="README_FA.md"><img width="20px" src="https://iris-go.com/static/images/flag-iran.svg" /></a> <a href="README_RU.md"><img width="20px" src="https://iris-go.com/static/images/flag-russia.svg" /></a> <a href="README_KO.md"><img width="20px" src="https://iris-go.com/static/images/flag-south-korea.svg?v=12" /></a> <a href="README_PT_BR.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-brazil.svg" /></a> <a href="README_VN.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-vietnam.svg" /></a>
+# <a href="https://iris-go.com"><img src="https://iris-go.com/iris-terminal-55.png" width="50px" height="50px" style="margin-bottom: -5px" ></a> Iris Web Framework <a href="README_GR.md"><img width="20px" src="https://iris-go.com/static/images/flag-greece.svg" /></a> <a href="README_JA.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-japan.svg" /></a> <a href="README_FR.md"><img width="20px" src="https://iris-go.com/static/images/flag-france.svg" /></a> <a href="README_ZH_HANT.md"><img width="20px" src="https://iris-go.com/static/images/flag-taiwan.svg" /></a> <a href="README_ZH_HANS.md"><img width="20px" src="https://iris-go.com/static/images/flag-china.svg" /></a> <a href="README_ES.md"><img width="20px" src="https://iris-go.com/static/images/flag-spain.png" /></a> <a href="README_FA.md"><img width="20px" src="https://iris-go.com/static/images/flag-iran.svg" /></a> <a href="README_RU.md"><img width="20px" src="https://iris-go.com/static/images/flag-russia.svg" /></a> <a href="README_KO.md"><img width="20px" src="https://iris-go.com/static/images/flag-south-korea.svg?v=12" /></a> <a href="README_PT_BR.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-brazil.svg" /></a> <a href="README_VN.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-vietnam.svg" /></a> <a href="README_AR.md">العربية</a>
 
 [![build status](https://img.shields.io/github/actions/workflow/status/kataras/iris/ci.yml?branch=main&style=for-the-badge)](https://github.com/kataras/iris/actions/workflows/ci.yml) [![view examples](https://img.shields.io/badge/examples%20-285-a83adf.svg?style=for-the-badge&logo=go)](https://github.com/kataras/iris/tree/main/_examples) [![chat](https://img.shields.io/gitter/room/iris_go/community.svg?color=cc2b5e&logo=gitter&style=for-the-badge)](https://gitter.im/iris_go/community) <!--[![FOSSA Status](https://img.shields.io/badge/LICENSE%20SCAN-PASSING❤️-CD2956?style=for-the-badge&logo=fossa)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkataras%2Firis?ref=badge_shield)--> [![donate](https://img.shields.io/badge/support-Iris-blue.svg?style=for-the-badge&logo=paypal)](https://iris-go.com/donate) <!--[![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/iris)--><!--[![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/kataras/iris/v12@v12.2.11)--> <!-- [![release](https://img.shields.io/badge/release%20-v12.0-0077b3.svg?style=for-the-badge)](https://github.com/kataras/iris/releases) -->
 
-🎁 Iris is a fast, simple yet fully featured and very efficient web framework for Go - the perfect gift for developers this holiday season!
+⚡ Iris is a fast, simple yet fully featured and very efficient web framework for Go.
 
-✨ It provides a beautifully expressive and easy to use foundation for your next website or API, wrapped with care and decorated with powerful features.
+✨ It provides a beautifully expressive and easy to use foundation for your next website or API.
 
-🌟 Learn what [others saying about Iris](https://www.iris-go.com/#review) and **[star](https://github.com/kataras/iris/stargazers)** this open-source project
+🌟 Learn what [others say about Iris](https://www.iris-go.com/#review) and **[star](https://github.com/kataras/iris/stargazers)** this open-source project
 
 [![](https://iris-go.com/static/images/reviews.gif)](https://iris-go.com/testimonials/)
 
@@ -28,7 +28,7 @@ func main() {
   app.Use(iris.Compression)
 
   app.Get("/", func(ctx iris.Context) {
-    ctx.HTML("Happy New Year <strong>%s</strong>! 🎅", "World")
+    ctx.HTML("Hello <strong>%s</strong>!", "World")
   })
 
   app.Listen(":8080")
@@ -201,7 +201,90 @@ Some of the features Iris offers:
 * Rich Requests (Bind URL Query, Headers, Form, Text, XML, YAML, Binary, JSON, Validation, Protocol Buffers, MessagePack and more)
 * Dependency Injection (MVC, Handlers, API Routers)
 * Testing Suite
-* And the most important... you get fast answers and support from the 1st day until now - that's six full years!
+* And the most important... you get fast answers and support, from the first day until now
+
+## 🚀 What is coming in Iris v14
+
+Iris v14 is the largest release in the project's history. It rebuilds the framework on Go generics and changes how an application is put together: less wiring in `main`, shorter handlers, and one place for the decisions that used to be scattered across every route.
+
+None of it needs your attention today. v12 keeps working, keeps getting fixes, and v14 arrives with a migration guide that covers every renamed and removed API.
+
+### The whole application in one compile-checked chain
+
+`iris.NewBuilder` wires CORS, compression, access logging, the health endpoint, the error map, your services and your API groups in a single expression. The compiler enforces the step order, so an application either builds correctly or does not build at all.
+
+```go
+iris.NewBuilder().
+    Prefix("/api").
+    AllowOrigin("*").
+    Compression(true).
+    LogRequests(true).
+    Health(true, "production", "kataras").
+    Errors(errors.NewOptions().
+        MapErrors(errors.NotFound, catalog.ErrNotFound)).
+    Services(catalog.NewRepository, catalog.NewService).
+    API("/products", api.NewProductsAPI).
+    Build().
+    Listen(":8080")
+```
+
+### Handlers stop repeating themselves
+
+Decoding, validation and error rendering move out of the handler body. `rest.ReadJSON[T]` decodes the request, runs the type's `Validate() error` when it has one, and writes the 400 itself. The response helpers write the success status, or whatever your central map says that error should return.
+
+```go
+func (api *ProductsAPI) create(ctx iris.Context) {
+    input, ok := rest.ReadJSON[catalog.ProductInput](ctx)
+    if !ok {
+        return // 400 already written: malformed JSON or failed Validate.
+    }
+
+    id, err := api.svc.Create(ctx, input)
+    rest.Created(ctx, id, err) // 201, or the centrally mapped error.
+}
+```
+
+`rest.OK`, `rest.NoContent`, `rest.Count` and `rest.Paginated` cover the rest of the shapes an API returns.
+
+### Errors are declared once
+
+The new `rest/errors` package holds the mapping from your domain errors to HTTP responses. Clients get canonical, machine-readable payloads. Internal messages stay internal. Register a collector and every failure reaches your logger or your database from a single place. An error can render as JSON or as a view, depending on what the client asked for.
+
+### Dependency injection everywhere, not only in MVC
+
+Constructors declare what they need and the container provides it: for handlers, for API groups, for controllers. A service that implements `Init(ctx context.Context) error` runs once inside `Build()`. Anything closeable is closed at shutdown. The `hero` package is gone, replaced by `dep` and `rest`, which do more in fewer lines. MVC controllers are built on generics.
+
+### The packages are where you would expect them
+
+`sessions`, `cache`, `websocket`, `i18n`, `view` and `versioning` became middleware. `mvc` moved under `controller`, next to the new `fileserver`, `sitemap` and `apigraph` controllers. `apigraph` renders your route tree as an interactive D3 graph.
+
+Thirty middleware ship in the box, including new ones: `httpcost` (time, memory and CPU per request, for performance work or billing), `bodylimit`, `compress`, `counter`, `referrer`, `geolocation`, `ipaccess` and `servertiming`. View engine implementations moved to [iris-contrib/views](https://github.com/iris-contrib/views).
+
+### Configuration is a partial literal
+
+`iris.Configuration` and the `With*` configurators are replaced by `iris.Options`. Set the fields you care about and the rest come from the defaults. `Bind` loads YAML from the `SERVER_CONFIG` environment variable, then from a file.
+
+```go
+app := iris.New(iris.Options{Name: "myapp", LogLevel: "debug"})
+```
+
+### Names that say what they do
+
+Reading a request header and setting a response header no longer share a prefix that quietly flips meaning: `ctx.Header` reads the request, `ctx.SetHeader` and `ctx.ResponseHeader` work on the response. `Party` is now `Router`. `ctx.URLParam` is now `ctx.Query().Get`. Every rename is listed in the migration guide with its replacement, and most are one search and replace.
+
+### Secure by default
+
+Session cookies ship with `Secure` and `SameSite=Lax`. The request body limit is enforced on every read path. Long-standing bugs went down with the rebuild, among them a rate limiter that recorded limits without ever enforcing them and a `Logout` call that could take the process with it.
+
+### Documentation you can read start to finish
+
+v14 comes with a book of 23 chapters inside the repository, a getting started tutorial that builds a tested REST API in one document, a migration guide for v12 applications, and a live AI wiki generated from the source that answers questions about the codebase.
+
+### What it means for your v12 code
+
+The import path becomes `github.com/kataras/iris/v14`, so v12 and v14 can sit side by side and nothing breaks on release day. Upgrade when it suits you. The migration guide covers the import path, the package moves, every removed API and its replacement, and the behavior changes, with ready commands for the mechanical parts.
+
+There is no public release date yet. Watch [releases](https://github.com/kataras/iris/releases) or follow [@iris_framework](https://twitter.com/iris_framework) to hear about it first.
 
 ## 👑 <a href="https://iris-go.com/donate">Supporters</a>
 
@@ -655,6 +738,12 @@ Iris contains extensive and thorough **[documentation](https://www.iris-go.com/d
 
 For a more detailed technical documentation you can head over to our [godocs](https://pkg.go.dev/github.com/kataras/iris/v12@v12.2.11). And for executable code you can always visit the [./_examples](_examples) repository's subdirectory.
 
+### Develop with Plexon AI
+
+[Plexon AI](https://plexon.ai) is a cross-platform AI coding assistant from Hellenic Development, and it ships with a dedicated **Iris skill**: a v14 development guide written by the framework's author, with nineteen reference documents covering routing and macros, the context API, the `rest` helpers, error handling, all thirty middleware, the built-in controllers, the authentication SDK, security hardening, persistence, caching, i18n, observability, performance, testing, deployment, and the v12 to v14 migration.
+
+Install the **Software Developer** persona and the Iris skill comes with it, alongside the engineering agents it activates. Your assistant then writes Iris code the way the framework is meant to be used, instead of guessing from whatever it picked up in training.
+
 ### Do you like to read while traveling?
 
 <a href="https://iris-go.com/#book"> <img alt="Book cover" src="https://iris-go.com/static/images/iris-book-cover-sm.jpg?v=12" /> </a>
@@ -665,7 +754,7 @@ For a more detailed technical documentation you can head over to our [godocs](ht
 
 [![follow Iris web framework on facebook](https://img.shields.io/badge/Follow%20%40Iris.framework-569-2D88FF.svg?style=for-the-badge&logo=facebook)](https://www.facebook.com/iris.framework)
 
-You can [request](https://www.iris-go.com/#ebookDonateForm) a PDF and online access of the **Iris E-Book** (New Edition, **future v12.2.0+**) today and be participated in the development of Iris.
+You can [request](https://www.iris-go.com/#ebookDonateForm) a PDF and online access of the **Iris E-Book** (New Edition) today and take part in the development of Iris.
 
 ## 🙌 Contributing
 

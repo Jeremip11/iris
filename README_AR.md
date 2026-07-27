@@ -1,22 +1,31 @@
-أعزائي أعضاء مجتمع Iris,
+<div dir="rtl">
 
-قد تكون قد لاحظت تراجعًا مؤخرًا في مستوى النشاط على مستودع Iris، ولكن هذا الهدوء له غاية مقصودة. خلال **الأشهر الثمانية إلى التسعة الماضية،** كنت أعمل بجد على الإعداد للإصدار الرئيسي الجديد من Iris، والذي يعتمد بشكل كامل على **الأنواع العامة (Generics)**، إلى جانب تقديم مجموعة من **الميزات الجديدة،** و **التحسينات**، والابتكارات. هذا التطوير يستند إلى خبرتي الممتدة على مدى **ثماني سنوات** في لغة Go، لضمان أن يستمر تطور Iris بما يتماشى مع احتياجاتكم المتنامية.
+أعزائي أعضاء مجتمع Iris،
 
-مع أطيب التحيات,<br/>
+قد تكون قد لاحظتم مؤخرًا تراجعًا في مستوى النشاط على مستودع Iris، ولكن هذا الهدوء له غاية مقصودة. طوال هذه الفترة كنت أعمل على الإصدار الرئيسي الجديد، **Iris v14**، الذي يعتمد بشكل كامل على **الأنواع العامة (Generics)**، إلى جانب مجموعة من **الميزات الجديدة** و**التحسينات** والابتكارات. هذا التطوير يستند إلى خبرتي الممتدة على مدى سنوات في لغة Go، لضمان أن يستمر تطور Iris بما يتماشى مع احتياجاتكم المتنامية.
+
+مع أطيب التحيات،<br/>
 Gerasimos (Makis) Maropoulos
 
-<div style="text-align: right;">
-<h1><a href="https://iris-go.com"><img src="https://iris-go.com/iris-terminal-55.png" width="50px" height="50px" style="margin-bottom: -5px" ></a> Iris Web Framework إطار العمل إريس <a href="README_GR.md"><img width="20px" src="https://iris-go.com/static/images/flag-greece.svg" /> <a href="README_JA.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-japan.svg" /></a> </a> <a href="README_FR.md"><img width="20px" src="https://iris-go.com/static/images/flag-france.svg" /></a> <a href="README_ZH_HANT.md"><img width="20px" src="https://iris-go.com/static/images/flag-taiwan.svg" /></a> <a href="README_ZH_HANS.md"><img width="20px" src="https://iris-go.com/static/images/flag-china.svg" /></a> <a href="README_ES.md"><img width="20px" src="https://iris-go.com/static/images/flag-spain.png" /></a> <a href="README_FA.md"><img width="20px" src="https://iris-go.com/static/images/flag-iran.svg" /></a> <a href="README_RU.md"><img width="20px" src="https://iris-go.com/static/images/flag-russia.svg" /></a> <a href="README_KO.md"><img width="20px" src="https://iris-go.com/static/images/flag-south-korea.svg?v=12" /></a> <a href="README_PT_BR.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-brazil.svg" /></a> <a href="README_VN.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-vietnam.svg" /></a></h1>
+<h1><img width="24" height="25" src ="https://www.iris-go.com/images/logo-new-lq-45.png"/> الأخبار</h1>
 
-[![build status](https://img.shields.io/github/actions/workflow/status/kataras/iris/ci.yml?branch=main&style=for-the-badge)](https://github.com/kataras/iris/actions/workflows/ci.yml) [![view examples](https://img.shields.io/badge/examples%20-285-a83adf.svg?style=for-the-badge&logo=go)](https://github.com/kataras/iris/tree/main/_examples) [![chat](https://img.shields.io/gitter/room/iris_go/community.svg?color=cc2b5e&logo=gitter&style=for-the-badge)](https://gitter.im/iris_go/community) <!--[![FOSSA Status](https://img.shields.io/badge/LICENSE%20SCAN-PASSING❤️-CD2956?style=for-the-badge&logo=fossa)](https://app.fossa.io/projects/git%2Bgithub.com%2Fkataras%2Firis?ref=badge_shield)--> [![donate](https://img.shields.io/badge/support-Iris-blue.svg?style=for-the-badge&logo=paypal)](https://iris-go.com/donate) <!--[![report card](https://img.shields.io/badge/report%20card-a%2B-ff3333.svg?style=for-the-badge)](https://goreportcard.com/report/github.com/kataras/iris)--><!--[![godocs](https://img.shields.io/badge/go-%20docs-488AC7.svg?style=for-the-badge)](https://pkg.go.dev/github.com/kataras/iris/v12@v12.2.11)--> <!-- [![release](https://img.shields.io/badge/release%20-v12.0-0077b3.svg?style=for-the-badge)](https://github.com/kataras/iris/releases) -->
+> 🚀 **Iris v14 في الطريق.** الإصدار الرئيسي القادم هو الأكبر في تاريخ المشروع: إطار عمل أُعيد بناؤه على الأنواع العامة في Go، وباني تطبيقات يتحقق منه المُصرِّف، ودوال مساعدة للطلبات تتولى التحقق نيابةً عنك، وخريطة أخطاء مركزية واحدة، وثلاثون برمجية وسيطة مدمجة، وكتاب يُنشر داخل المستودع نفسه. اطّلع أدناه على [ما الذي يأتي في Iris v14](#-ما-الذي-يأتي-في-iris-v14).
+>
+> النسخة الموصوفة هنا، **v12**، ما زالت تعمل وما زالت تتلقى الإصلاحات. سيصدر v14 على مسار استيراد جديد، لذلك لن يتعطل شيء لديك يوم صدوره.
+
+<h1><a href="https://iris-go.com"><img src="https://iris-go.com/iris-terminal-55.png" width="50px" height="50px" style="margin-bottom: -5px" ></a> Iris Web Framework إطار العمل إريس <a href="README.md">English</a> <a href="README_GR.md"><img width="20px" src="https://iris-go.com/static/images/flag-greece.svg" /></a> <a href="README_JA.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-japan.svg" /></a> <a href="README_FR.md"><img width="20px" src="https://iris-go.com/static/images/flag-france.svg" /></a> <a href="README_ZH_HANT.md"><img width="20px" src="https://iris-go.com/static/images/flag-taiwan.svg" /></a> <a href="README_ZH_HANS.md"><img width="20px" src="https://iris-go.com/static/images/flag-china.svg" /></a> <a href="README_ES.md"><img width="20px" src="https://iris-go.com/static/images/flag-spain.png" /></a> <a href="README_FA.md"><img width="20px" src="https://iris-go.com/static/images/flag-iran.svg" /></a> <a href="README_RU.md"><img width="20px" src="https://iris-go.com/static/images/flag-russia.svg" /></a> <a href="README_KO.md"><img width="20px" src="https://iris-go.com/static/images/flag-south-korea.svg?v=12" /></a> <a href="README_PT_BR.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-brazil.svg" /></a> <a href="README_VN.md"><img width="20px" height="20px" src="https://iris-go.com/static/images/flag-vietnam.svg" /></a></h1>
+
 </div>
 
-<div  style="text-align: right;">
-Iris هو إطار عمل ويب سريع، بسيط، ومع ذلك غني بالميزات وفعّال للغاية بلغة Go.
+[![build status](https://img.shields.io/github/actions/workflow/status/kataras/iris/ci.yml?branch=main&style=for-the-badge)](https://github.com/kataras/iris/actions/workflows/ci.yml) [![view examples](https://img.shields.io/badge/examples%20-285-a83adf.svg?style=for-the-badge&logo=go)](https://github.com/kataras/iris/tree/main/_examples) [![chat](https://img.shields.io/gitter/room/iris_go/community.svg?color=cc2b5e&logo=gitter&style=for-the-badge)](https://gitter.im/iris_go/community) [![donate](https://img.shields.io/badge/support-Iris-blue.svg?style=for-the-badge&logo=paypal)](https://iris-go.com/donate)
 
-يوفّر أساسًا مرنًا، سهل الاستخدام، وذا تعبيرية رائعة لبناء موقعك الإلكتروني أو واجهة برمجة التطبيقات (API) القادمة.
+<div dir="rtl">
 
-**تعرف** على [آراء اللآخرين حول Iris](https://www.iris-go.com/#review) و **[امنح المشروع نجمة](https://github.com/kataras/iris/stargazers)** لدعم إمكاناته كمشروع مفتوح المصدر.
+⚡ Iris هو إطار عمل ويب سريع، بسيط، ومع ذلك غني بالميزات وفعّال للغاية بلغة Go.
+
+✨ يوفّر أساسًا مرنًا، سهل الاستخدام، وذا تعبيرية رائعة لبناء موقعك الإلكتروني أو واجهة برمجة التطبيقات (API) القادمة.
+
+🌟 تعرّف على [آراء الآخرين حول Iris](https://www.iris-go.com/#review) و**[امنح المشروع نجمة](https://github.com/kataras/iris/stargazers)** لدعم هذا المشروع مفتوح المصدر.
 
 </div>
 
@@ -41,35 +50,134 @@ func main() {
 }
 ```
 
+<div dir="rtl">
+
 كما قال أحد [مطوري Go](https://twitter.com/dkuye/status/1532087942696554497) ذات مرة: **Iris يغطي جميع الجوانب، وظل صامدًا وقويًا على مدار السنوات**.
 
 بعض الميزات التي يقدّمها Iris:
 
-* <p style="text-align: right">دعم كامل لبروتوكول HTTP/2 (يشمل Push وبيانات مضمنة)</p>
-* <p style="text-align: right">البرمجيات الوسيطة (Middleware): Accesslog، Basicauth، CORS، gRPC، Anti-Bot hCaptcha، JWT، MethodOverride، ModRevision، Monitor، PPROF، Ratelimit، Anti-Bot reCaptcha، Recovery، RequestID، Rewrite</p>
-* <p style="text-align: right">إصدار واجهات برمجة التطبيقات (API Versioning)</p>
-* <p style="text-align: right">نموذج-عرض-تحكم (Model-View-Controller)</p>
-* <p style="text-align: right">دعم كامل لبروتوكول WebSockets</p>
-* <p style="text-align: right">دعم gRPC</p>
-* <p style="text-align: right">دعم تلقائي لHTTPS</p>
-* <p style="text-align: right">دعم مدمج لـ ngrok لعرض تطبيقك على الإنترنت بأسرع طريقة</p>
-* <p style="text-align: right">موجّه (Router) فريد يدعم المسارات الديناميكية مع أنواع قياسية مثل: :uuid، :string، :int، وإمكانية إنشاء أنواعك الخاصة</p>
-* <p style="text-align: right">ضغط البيانات</p>
-* <p style="text-align: right">محركات العرض: HTML، Django، Handlebars، Pug/Jade وغيرها</p>
-* <p style="text-align: right">إنشاء خادم ملفات خاص بك واستضافة خادم WebDAV</p>
-* <p style="text-align: right">التخزين المؤقت</p>
-* <p style="text-align: right">التوطين (i18n, sitemap)</p>
-* <p style="text-align: right">الجلسات</p>
-* <p style="text-align: right">استجابات غنية تشمل: HTML، نص، Markdown، XML، YAML، ثنائي، JSON، JSONP، Protocol Buffers، MessagePack، Content Negotiation، البث المتدفق، وأحداث مرسلة من الخادم والمزيد</p>
-* <p style="text-align: right">ضغط الاستجابات (gzip, deflate, brotli, snappy, s2)</p>
-* <p style="text-align: right">طلبات غنية (Rich Requests) تدعم: ربط استعلامات URL، الرؤوس، النماذج، النصوص، XML، YAML، ثنائي، JSON، التحقق، Protocol Buffers، MessagePack والمزيد</p>
-* <p style="text-align: right">الحقن التلقائي: لمعماريات MVC، المعالجات، وواجهات برمجة التطبيقات</p>
-* <p style="text-align: right">مجموعة اختبارات</p>
-* <p style="text-align: right">والأهم... تحصل على دعم سريع وإجابات فورية منذ اليوم الأول وحتى الآن، على مدار ست سنوات متواصلة!</p>
+* دعم كامل لبروتوكول HTTP/2 (يشمل Push وبيانات مضمّنة)
+* البرمجيات الوسيطة (Middleware): Accesslog، Basicauth، CORS، gRPC، Anti-Bot hCaptcha، JWT، MethodOverride، ModRevision، Monitor، PPROF، Ratelimit، Anti-Bot reCaptcha، Recovery، RequestID، Rewrite
+* إصدار واجهات برمجة التطبيقات (API Versioning)
+* نموذج-عرض-تحكم (Model-View-Controller)
+* دعم كامل لبروتوكول WebSockets
+* دعم gRPC
+* دعم تلقائي لـ HTTPS
+* دعم مدمج لـ ngrok لعرض تطبيقك على الإنترنت بأسرع طريقة
+* موجّه (Router) فريد يدعم المسارات الديناميكية مع أنواع قياسية مثل ‎:uuid‎ و‎:string‎ و‎:int‎، وإمكانية إنشاء أنواعك الخاصة
+* ضغط البيانات
+* محركات العرض: HTML، Django، Handlebars، Pug/Jade وغيرها
+* إنشاء خادم ملفات خاص بك واستضافة خادم WebDAV
+* التخزين المؤقت
+* التوطين (i18n، sitemap)
+* الجلسات
+* استجابات غنية تشمل: HTML، نص، Markdown، XML، YAML، ثنائي، JSON، JSONP، Protocol Buffers، MessagePack، Content Negotiation، البث المتدفق، والأحداث المرسلة من الخادم والمزيد
+* ضغط الاستجابات (gzip، deflate، brotli، snappy، s2)
+* طلبات غنية تدعم: ربط استعلامات URL، الرؤوس، النماذج، النصوص، XML، YAML، ثنائي، JSON، التحقق، Protocol Buffers، MessagePack والمزيد
+* الحقن التلقائي للاعتماديات: لمعماريات MVC، المعالجات، وموجّهات واجهات برمجة التطبيقات
+* مجموعة اختبارات
+* والأهم... تحصل على إجابات سريعة ودعم، منذ اليوم الأول وحتى الآن
 
-## <p style="text-align: right">👑 <a href="https://iris-go.com/donate">الداعمين</a></p>
+## 🚀 ما الذي يأتي في Iris v14
+
+Iris v14 هو الإصدار الأكبر في تاريخ المشروع. يعيد بناء الإطار على الأنواع العامة في Go، ويغيّر طريقة تجميع التطبيق: توصيلات أقل داخل `main`، ومعالجات أقصر، ومكان واحد للقرارات التي كانت موزّعة سابقًا على كل مسار.
+
+لا شيء من هذا يتطلب انتباهك اليوم. v12 ما زال يعمل، وما زال يتلقى الإصلاحات، وسيأتي v14 مع دليل ترحيل يغطي كل واجهة برمجية جرى تغيير اسمها أو حذفها.
+
+### التطبيق بأكمله في سلسلة واحدة يتحقق منها المُصرِّف
+
+يقوم `iris.NewBuilder` بربط CORS، والضغط، وسجل الوصول، ونقطة فحص السلامة، وخريطة الأخطاء، وخدماتك ومجموعات واجهاتك البرمجية في تعبير واحد. المُصرِّف هو من يفرض ترتيب الخطوات، لذا فإن التطبيق إما يُبنى بشكل صحيح أو لا يُبنى إطلاقًا.
+
+</div>
+
+```go
+iris.NewBuilder().
+    Prefix("/api").
+    AllowOrigin("*").
+    Compression(true).
+    LogRequests(true).
+    Health(true, "production", "kataras").
+    Errors(errors.NewOptions().
+        MapErrors(errors.NotFound, catalog.ErrNotFound)).
+    Services(catalog.NewRepository, catalog.NewService).
+    API("/products", api.NewProductsAPI).
+    Build().
+    Listen(":8080")
+```
+
+<div dir="rtl">
+
+### المعالجات تتوقف عن تكرار نفسها
+
+يخرج فك الترميز والتحقق وعرض الأخطاء من جسم المعالج. تقوم `rest.ReadJSON[T]` بفك ترميز الطلب، وتشغيل الدالة `Validate() error` الخاصة بنوعك إن وُجدت، وكتابة استجابة 400 بنفسها. أما دوال الاستجابة المساعدة فتكتب رمز حالة النجاح، أو ما تحدده خريطتك المركزية لذلك الخطأ.
+
+</div>
+
+```go
+func (api *ProductsAPI) create(ctx iris.Context) {
+    input, ok := rest.ReadJSON[catalog.ProductInput](ctx)
+    if !ok {
+        return // كُتبت 400 بالفعل: JSON غير صالح أو فشل Validate.
+    }
+
+    id, err := api.svc.Create(ctx, input)
+    rest.Created(ctx, id, err) // 201، أو الخطأ المرتبط مركزيًا.
+}
+```
+
+<div dir="rtl">
+
+وتغطي `rest.OK` و`rest.NoContent` و`rest.Count` و`rest.Paginated` بقية الأشكال التي ترجعها واجهة برمجية.
+
+### الأخطاء تُعلَن مرة واحدة
+
+تحتفظ الحزمة الجديدة `rest/errors` بالربط بين أخطاء مجالك واستجابات HTTP. يحصل العملاء على حمولات قياسية قابلة للقراءة آليًا. وتبقى الرسائل الداخلية داخلية. سجّل مُجمِّعًا (collector) وسيصل كل إخفاق إلى سجلّك أو قاعدة بياناتك من مكان واحد. ويمكن عرض الخطأ بصيغة JSON أو كواجهة عرض، حسب ما طلبه العميل.
+
+### حقن الاعتماديات في كل مكان، لا في MVC فقط
+
+تعلن الدوال البانية عمّا تحتاجه ويوفّره الحاوي: للمعالجات، ولمجموعات واجهات برمجة التطبيقات، وللمتحكمات. والخدمة التي تنفّذ `Init(ctx context.Context) error` تعمل مرة واحدة داخل `Build()`. وكل ما يمكن إغلاقه يُغلق عند إيقاف التشغيل. أما الحزمة `hero` فقد اختفت، واستُبدلت بـ `dep` و`rest` اللتين تنجزان أكثر بأسطر أقل. ومتحكمات MVC مبنية على الأنواع العامة.
+
+### الحزم في المكان الذي تتوقعه
+
+أصبحت `sessions` و`cache` و`websocket` و`i18n` و`view` و`versioning` برمجيات وسيطة. وانتقلت `mvc` إلى داخل `controller`، إلى جانب المتحكمات الجديدة `fileserver` و`sitemap` و`apigraph`. ويرسم `apigraph` شجرة مساراتك على هيئة رسم بياني تفاعلي بـ D3.
+
+وتأتي ثلاثون برمجية وسيطة جاهزة، من بينها الجديد: `httpcost` (الزمن والذاكرة والمعالج لكل طلب، لتحليل الأداء أو للفوترة)، و`bodylimit`، و`compress`، و`counter`، و`referrer`، و`geolocation`، و`ipaccess`، و`servertiming`. وانتقلت تطبيقات محركات العرض إلى [iris-contrib/views](https://github.com/iris-contrib/views).
+
+### الإعدادات صارت قيمة جزئية
+
+استُبدلت `iris.Configuration` ومهيّئات `With*` بـ `iris.Options`. اضبط الحقول التي تهمّك فقط، ويأتي الباقي من القيم الافتراضية. وتقوم `Bind` بتحميل YAML من متغير البيئة `SERVER_CONFIG` أولًا، ثم من ملف.
+
+</div>
+
+```go
+app := iris.New(iris.Options{Name: "myapp", LogLevel: "debug"})
+```
+
+<div dir="rtl">
+
+### أسماء تقول ما تفعله
+
+لم تعد قراءة ترويسة الطلب وضبط ترويسة الاستجابة تتشاركان بادئة ينقلب معناها بصمت: `ctx.Header` تقرأ الطلب، بينما `ctx.SetHeader` و`ctx.ResponseHeader` تعملان على الاستجابة. و`Party` صارت `Router`. و`ctx.URLParam` صارت `ctx.Query().Get`. كل تغيير في التسمية مذكور في دليل الترحيل مع بديله، ومعظمها يحتاج عملية بحث واستبدال واحدة.
+
+### آمن افتراضيًا
+
+تُرسل ملفات تعريف ارتباط الجلسات مع `Secure` و`SameSite=Lax`. ويُطبَّق حد حجم جسم الطلب على كل مسارات القراءة. ومع إعادة البناء سقطت أخطاء قديمة، من بينها محدِّد معدّل كان يسجّل الحدود دون أن يطبّقها أبدًا، واستدعاء `Logout` كان قادرًا على إسقاط العملية بأكملها.
+
+### توثيق يمكن قراءته من أوله إلى آخره
+
+يأتي v14 مع كتاب من 23 فصلًا داخل المستودع، ودليل بدء عملي يبني واجهة REST مختبَرة في مستند واحد، ودليل ترحيل لتطبيقات v12، وويكي حيّ يعمل بالذكاء الاصطناعي مُولَّد من الشيفرة المصدرية يجيب عن أسئلتك حول قاعدة الشيفرة.
+
+### ماذا يعني هذا لشيفرتك على v12
+
+يصبح مسار الاستيراد `github.com/kataras/iris/v14`، لذا يمكن لـ v12 و v14 التعايش جنبًا إلى جنب دون أن يتعطل شيء يوم الإصدار. رقِّ متى ما ناسبك. ويغطي دليل الترحيل مسار الاستيراد، وانتقال الحزم، وكل واجهة برمجية محذوفة وبديلها، والتغيّرات في السلوك، مع أوامر جاهزة للأجزاء الميكانيكية.
+
+لا يوجد تاريخ إصدار معلن حتى الآن. تابع [الإصدارات](https://github.com/kataras/iris/releases) أو [@iris_framework](https://twitter.com/iris_framework) لتكون أول من يعرف.
+
+## 👑 <a href="https://iris-go.com/donate">الداعمون</a>
 
 بدعمكم، سنتمكن معًا من الارتقاء بتطوير الويب مفتوح المصدر وجعله أفضل للجميع!
+
+</div>
 
 <p>
   <a href="https://github.com/getsentry"><img src="https://avatars1.githubusercontent.com/u/1396951?v=4" alt="getsentry" title="getsentry" width="75" height="75" style="width:75px;max-width:75px;height:75px" /></a>
@@ -478,32 +586,34 @@ func main() {
   <a href="https://github.com/yangxianglong"><img src="https://avatars1.githubusercontent.com/u/55280276?v=4" alt="yangxianglong" title="yangxianglong" width="75" height="75" style="width:75px;max-width:75px;height:75px" /></a>
 </p>
 
-## <p style="text-align: right;">تعلّم Iris</p>
+<div dir="rtl">
 
-### <p style="text-align: right;">التثبيت</p>
+## 📖 تعلّم Iris
+
+### التثبيت
 
 المتطلب الوحيد هو [لغة البرمجة Go](https://go.dev/dl/).
 
-#### <p style="text-align: right;">إنشاء مشروع جديد</p>
+#### إنشاء مشروع جديد
+
+</div>
 
 ```sh
 $ mkdir myapp
 $ cd myapp
 $ go mod init myapp
-$ go get github.com/kataras/iris/v12@latest # or @v12.2.11
+$ go get github.com/kataras/iris/v12@latest # أو @v12.2.11
 ```
 
-<details><summary style="text-align: right;">التثبيت على مشروع قائم</summary>
+<details><summary>التثبيت على مشروع قائم</summary>
 
 ```sh
 $ cd myapp
 $ go get github.com/kataras/iris/v12@latest
 ```
 
-**تشغيل**
-
 ```sh
-$ go mod tidy -compat=1.23 # -compat="1.23" for windows.
+$ go mod tidy -compat=1.23 # -compat="1.23" على ويندوز.
 $ go run .
 ```
 
@@ -511,11 +621,21 @@ $ go run .
 
 ![](https://www.iris-go.com/images/gifs/install-create-iris.gif)
 
+<div dir="rtl">
+
 يحتوي Iris على **[وثائق](https://www.iris-go.com/docs)** شاملة ومفصّلة تسهّل عليك البدء باستخدام الإطار.
 
-للاطلاع على توثيق تقني أكثر تفصيلاً، يمكنك زيارة [godocs](https://pkg.go.dev/github.com/kataras/iris/v12@v12.2.11). الخاص بنا، وللاطلاع على أمثلة قابلة للتنفيذ، يمكنك دائمًا زيارة المجلد الفرعي للمستودع [./_examples](_examples).
+للاطلاع على توثيق تقني أكثر تفصيلًا، يمكنك زيارة [godocs](https://pkg.go.dev/github.com/kataras/iris/v12@v12.2.11) الخاص بنا. وللاطلاع على أمثلة قابلة للتنفيذ، يمكنك دائمًا زيارة المجلد الفرعي [./_examples](_examples) في المستودع.
 
-### <p style="text-align: right;">هل تحب القراءة أثناء السفر؟</p>
+### التطوير مع Plexon AI
+
+[Plexon AI](https://plexon.ai) مساعد برمجة يعمل بالذكاء الاصطناعي ومتعدد المنصّات من Hellenic Development، ويأتي مع **مهارة (skill) مخصصة لـ Iris**: دليل تطوير لـ v14 كتبه مؤلف الإطار نفسه، ويضم تسعة عشر مستند مرجع تغطي التوجيه والماكروات، وواجهة السياق (context API)، ودوال `rest` المساعدة، ومعالجة الأخطاء، والبرمجيات الوسيطة الثلاثين كلها، والمتحكمات المدمجة، وحزمة تطوير المصادقة، وتقوية الأمان، وتخزين البيانات، والتخزين المؤقت، والتوطين، وقابلية الملاحظة، والأداء، والاختبار، والنشر، والترحيل من v12 إلى v14.
+
+ثبّت شخصية **Software Developer** فتأتي معها مهارة Iris، إلى جانب وكلاء الهندسة الذين تفعّلهم. عندها يكتب مساعدك شيفرة Iris بالطريقة التي صُمم الإطار ليُستخدم بها، بدلًا من التخمين اعتمادًا على ما صادفه أثناء التدريب.
+
+### هل تحب القراءة أثناء السفر؟
+
+</div>
 
 <a href="https://iris-go.com/#book"> <img alt="Book cover" src="https://iris-go.com/static/images/iris-book-cover-sm.jpg?v=12" /> </a>
 
@@ -525,21 +645,24 @@ $ go run .
 
 [![follow Iris web framework on facebook](https://img.shields.io/badge/Follow%20%40Iris.framework-569-2D88FF.svg?style=for-the-badge&logo=facebook)](https://www.facebook.com/iris.framework)
 
+<div dir="rtl">
 
-يمكنك [طلب نسخة](https://www.iris-go.com/#ebookDonateForm) PDF أو الوصول إلى **النسخة الإلكترونية** من كتاب Iris (الإصدار الجديد **v12.2.0+**) اليوم والمساهمة في تطوير الإطار.
+يمكنك [طلب](https://www.iris-go.com/#ebookDonateForm) نسخة PDF والوصول عبر الإنترنت إلى **الكتاب الإلكتروني لـ Iris** (الإصدار الجديد) اليوم، والمساهمة في تطوير Iris.
 
-## <p style="text-align: right;">🙌 المساهمة</p>
+## 🙌 المساهمة
 
 نسعد برؤية مساهمتك في تطوير إطار عمل Iris! لمزيد من التفاصيل حول كيفية المساهمة، يُرجى الاطلاع على ملف [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [قائمة جميع المساهمين](https://github.com/kataras/iris/graphs/contributors)
 
-## <p style="text-align: right;">🛡 الثغرات الأمنية</p>
+## 🛡 الثغرات الأمنية
 
 إذا اكتشفت ثغرة أمنية في Iris، يُرجى إرسال بريد إلكتروني إلى [iris-go@outlook.com](mailto:iris-go@outlook.com). سيتم التعامل مع جميع الثغرات الأمنية بسرعة.
 
-## <p style="text-align: right;">📝 الرخصة</p>
+## 📝 الرخصة
 
-هذا المشروع مرخّص بموجب رخصة [BSD بثلاثة بنود](LICENSE), تمامًا كحال مشروع Go نفسه.
+هذا المشروع مرخّص بموجب رخصة [BSD بثلاثة بنود](LICENSE)، تمامًا كحال مشروع Go نفسه.
 
 اسم المشروع "Iris" مستوحى من الأساطير اليونانية.
+
+</div>

@@ -1,6 +1,6 @@
 module github.com/kataras/iris/_examples/response-writer/json-third-party
 
-go 1.25
+go 1.26
 
 require (
 	github.com/bytedance/sonic v1.14.2
